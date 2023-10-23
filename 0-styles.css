@@ -1,3 +1,65 @@
-header {
-    background: red;
+
+html,body {
+    background-image: url(Images/background.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin: auto;
+    min-width: 1400px;
+    max-width: fill;
+    justify-content: center;
+}
+
+/*--Top Header--*/
+/*--This will display the logo and Navigation links--*/
+
+.header {
+    padding-top: 15px;
+    width: auto;
+    height: 750px;
+    outline: 10px rgb(255, 0, 0) solid;
+    text-align: center;
+}
+
+.navdiv {
+    margin: 5px 10px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    outline: yellow solid 3px;
+    align-items: center;
+}
+
+.headephoneheaderlogo {
+    height: 50px;
+    outline: lightblue 3px solid;
+}
+
+.navbarsection {
+    outline: lightblue 3px solid;
+}
+
+.navbarsection li{
+    display: inline;
+    outline: rgb(163, 232, 42) 3px solid;
+}
+
+.bottomheaderdiv {
+    margin-top: 300px;
+    text-align: center;
+    outline: yellow solid 3px;
+}
+
+.headertitle {
+    width: auto;
+    outline: lightblue 3px solid;
+}
+
+
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .navdiv, .nav {
+      width: 100%;
+    }
 }
