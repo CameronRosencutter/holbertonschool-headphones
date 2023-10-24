@@ -35,12 +35,9 @@
 
 
 
-html{
-    background-color: gray;
-}
 
 
-/*--Top Header--*/
+/*--Header--*/
 /*--This will display the logo and Navigation links--*/
 
 .headerandmainsection {
@@ -108,7 +105,8 @@ html{
     opacity: 0.9;
 }
 
-
+/*--Main Section--*/
+/*--This will display Title, paragraph, and button--*/
 
 .sectionmain {
     outline: lightsalmon solid 4px;
@@ -178,6 +176,10 @@ html{
     color: aliceblue;
     width: 450px;
 }
+
+
+/*--Screen size adjuster--*/
+/*--This will display the page on different sizes.--*/
 
 @media only screen and (max-width: 675px) {
     /* For mobile phones: */
