@@ -34,8 +34,14 @@
 }
 
 
+
 html{
     background-color: gray;
+    background-image: url(Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 480px;
 }
 
 
@@ -53,16 +59,32 @@ html{
 
 .navdiv {
     position: relative;
-    margin: 50px;
+    margin-top: 50px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
     outline: green solid 3px;
 }
 
+.headephoneheaderlogo {
+    margin-left: 50px;
+    outline: yellow solid 3px;
+    scale: 1.2;
+}
+
+.headephoneheaderlogo:hover {
+    transition: 0.5s;
+    color: #FF6565;
+    opacity: 0.9;
+}
+
+.menuicon {
+    display: none;
+}
+
 .navbarsection {
-    text-decoration: none;
-    color: white;
+    outline: purple solid 3px;
+    margin-right: 50px;
 }
 
 .navbarsection li{
@@ -70,15 +92,49 @@ html{
 }
 
 .navbarsection a{
+    margin: 30px;
+    font-family: Source Sans Pro-Bold;
     color: aliceblue;
     text-decoration: none;
+}
+
+.navbarsection a:hover{
+    transition: 0.5s;
+    color: #FF6565;
+    opacity: 0.9;
+}
+
+
+.mainpart {
+    outline: green solid 3px;
+    margin-top: 300px;
 }
 
 
 
 
-
-@media only screen and (max-width: 685px) {
+@media only screen and (max-width: 675px) {
     /* For mobile phones: */
+    .navdiv {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbarsection{
+        margin: 0;
+    }
+
+    .navbarsection li{
+        display: block;
+        font-size: 26px;
+        padding: 20px;
+    }
+
+    .headephoneheaderlogo {
+        margin-left: 0;
+
+    }
+
+    
 
 }
