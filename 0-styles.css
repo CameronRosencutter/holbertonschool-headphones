@@ -37,16 +37,20 @@
 
 html{
     background-color: gray;
-    background-image: url(Images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-width: 480px;
 }
 
 
 /*--Top Header--*/
 /*--This will display the logo and Navigation links--*/
+
+.headerandmainsection {
+    background-image: url(Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 480px;
+    background-color: #08162b;
+}
 
 .header {
     justify-content: center;
@@ -105,6 +109,12 @@ html{
 }
 
 
+
+.sectionmain {
+    outline: lightsalmon solid 4px;
+    height: 450px;
+}
+
 .mainpart {
     outline: green solid 3px;
     margin-top: 300px;
@@ -141,9 +151,16 @@ html{
     outline: red solid;
     width: 170px;
     padding: 6px;
-    font-size: 18px;
+    font-size: 15px;
+    letter-spacing: 2px;
     border-radius: 30px;
     margin-bottom: 30px;
+}
+
+.mainpart button:hover{
+    color: #FF6565;
+    background-color: aliceblue;
+    transition: 0.5s;
 }
 
 .headerparagraph {
@@ -156,13 +173,11 @@ html{
 }
 
 .headerparagraph p {
+    font-family: Source Sans Pro;
+    font-size: 16px;
     color: aliceblue;
     width: 450px;
 }
-
-
-
-
 
 @media only screen and (max-width: 675px) {
     /* For mobile phones: */
@@ -190,3 +205,4 @@ html{
         margin-right: 10px;
     }
 }
+
