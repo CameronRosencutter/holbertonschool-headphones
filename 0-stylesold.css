@@ -45,40 +45,72 @@ html{
 .header {
     justify-content: center;
     width: auto;
-    height: 100px;
-    flex-direction: row;
+    height: 750px;
     outline: 10px rgb(255, 0, 0) solid;
-    margin-top: 10px;
 }
 
 .navdiv {
-    position: relative;
-    margin: 50px;
-    justify-content: space-between;
+    margin: 5px 10px;
     display: flex;
-    flex-direction: row;
-    outline: green solid 3px;
+    outline: yellow solid 3px;
+    justify-content: space-between;
+}
+
+.headephoneheaderlogo {
+    height: 50px;
+    outline: lightblue 3px solid;
 }
 
 .navbarsection {
-    text-decoration: none;
+    outline: lightblue 3px solid;
     color: white;
+    font-family: Source Sans Pro-Bold;
+    font-size: 18px;
 }
 
 .navbarsection li{
-    display: inline;
-}
-
-.navbarsection a{
-    color: aliceblue;
+    margin: 30px;
+    color: white;
     text-decoration: none;
+    display: inline;
+    outline: rgb(163, 232, 42) 3px solid;
 }
 
+.bottomheaderdiv {
+    width: auto;
+    height: 400px;
+    margin-top: 300px;
+    text-align: center;
+    justify-content: space-around;
+    outline: yellow solid 3px;
+    display: flex;
+    flex-direction: column;
+}
 
+.headertitle {
+    position: relative;
+    height: auto;
+    outline: rgb(65, 164, 197) 3px solid;
+    width: 300px;
+}
 
 
 
 @media only screen and (max-width: 685px) {
     /* For mobile phones: */
+    .navdiv{
+      outline: purple 10px solid;
+      justify-content: center;
+      flex-direction: column;
+    }
 
+    .headephoneheaderlogo{
+        justify-content: center;
+        width: 185px;
+    }
+
+    .navbarsection li {
+        display: block;
+        font-size: 24px;
+    }
 }
