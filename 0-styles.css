@@ -43,6 +43,7 @@ html{
 /*--This will display the logo and Navigation links--*/
 
 .header {
+    justify-content: center;
     width: auto;
     height: 750px;
     outline: 10px rgb(255, 0, 0) solid;
@@ -52,11 +53,10 @@ html{
     margin: 5px 10px;
     display: flex;
     outline: yellow solid 3px;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .headephoneheaderlogo {
-    position: relative;
     height: 50px;
     outline: lightblue 3px solid;
 }
@@ -71,19 +71,27 @@ html{
 .navbarsection li{
     margin: 30px;
     color: white;
+    text-decoration: none;
     display: inline;
     outline: rgb(163, 232, 42) 3px solid;
 }
 
 .bottomheaderdiv {
+    width: auto;
+    height: 400px;
     margin-top: 300px;
     text-align: center;
+    justify-content: space-around;
     outline: yellow solid 3px;
+    display: flex;
+    flex-direction: column;
 }
 
 .headertitle {
-    width: auto;
-    outline: lightblue 3px solid;
+    position: relative;
+    height: auto;
+    outline: rgb(65, 164, 197) 3px solid;
+    width: 300px;
 }
 
 
@@ -92,5 +100,17 @@ html{
     /* For mobile phones: */
     .navdiv{
       outline: purple 10px solid;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .headephoneheaderlogo{
+        justify-content: center;
+        width: 185px;
+    }
+
+    .navbarsection li {
+        display: block;
+        font-size: 24px;
     }
 }
