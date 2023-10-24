@@ -1,45 +1,76 @@
-
-html,body {
-    background-image: url(Images/background.png);
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    background-size:100%;
-    margin: auto;
-    min-width: 1400px;
-    max-width: fill;
-    justify-content: center;
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Regular.otf);
 }
+
+@font-face {
+    font-family: Source Sans Pro-Black;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Black.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-SemiBold;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-Bold;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro_Lightit;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-LightIt.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-Light;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-ExtraLight;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-ExtraLight.otf);
+}
+
+
+html{
+    background-color: gray;
+}
+
 
 /*--Top Header--*/
 /*--This will display the logo and Navigation links--*/
 
 .header {
-    padding-top: 15px;
     width: auto;
     height: 750px;
     outline: 10px rgb(255, 0, 0) solid;
-    text-align: center;
 }
 
 .navdiv {
     margin: 5px 10px;
-    width: auto;
-    justify-content: center;
     display: flex;
     outline: yellow solid 3px;
-    align-items: center;
+    justify-content: space-between
 }
 
 .headephoneheaderlogo {
+    position: relative;
     height: 50px;
     outline: lightblue 3px solid;
 }
 
 .navbarsection {
     outline: lightblue 3px solid;
+    color: white;
+    font-family: Source Sans Pro-Bold;
+    font-size: 18px;
 }
 
 .navbarsection li{
+    margin: 30px;
+    color: white;
     display: inline;
     outline: rgb(163, 232, 42) 3px solid;
 }
@@ -57,9 +88,9 @@ html,body {
 
 
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 685px) {
     /* For mobile phones: */
-    .navdiv, .nav {
-      width: 100%;
+    .navdiv{
+      outline: purple 10px solid;
     }
 }
