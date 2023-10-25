@@ -254,8 +254,18 @@ html {
  }
 
 .ourresults1 {
+    padding-top: 1px;
     color: aliceblue;
     text-align: center;
+    outline: lightcoral solid 4px;
+}
+
+.ourresults1 h1{
+    outline: red solid 5px;
+    margin-top: 50px;
+    font-family: Source Sans Pro-Bold;
+    font-size: 34px;
+    outline: rgb(155, 92, 92) solid 3px;
 }
 
 .ourresults2 {
@@ -268,13 +278,23 @@ html {
     justify-content: space-around;
 }
 
+
+
+
 .ourresults2 p{
     width: 500px;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    width: 650px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
 } 
 
 
 
 .ourresultssection {
+    outline: rgb(95, 95, 237) solid 3px;
     background-image: url(Images/resultbg.png);
     background-repeat: no-repeat;
     background-size: cover;
