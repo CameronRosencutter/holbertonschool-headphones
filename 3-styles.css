@@ -319,6 +319,53 @@ html {
     background-color: #08162b;
 }
 
+
+
+
+form {
+    font-family: Source Sans Pro;
+    text-align: center;
+    max-width:420px; margin:50px auto;
+}
+
+.feedback-input {
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border-bottom: 3px solid black;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+
+button {
+    color: aliceblue;
+    font-family: Source Sans Pro;
+    text-transform: uppercase;
+    background-color: #FF6565;
+    cursor: pointer;
+    outline: red solid;
+    width: 170px;
+    padding: 6px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
 /*--Screen size adjuster--*/
 /*--This will display the page on different sizes.--*/
 
