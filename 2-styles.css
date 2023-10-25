@@ -34,7 +34,11 @@
 }
 
 
-
+html {
+    margin: 0;
+    padding: 0;
+    
+}
 
 
 /*--Header--*/
@@ -54,13 +58,12 @@
     width: auto;
     height: 100px;
     flex-direction: row;
-    outline: 10px rgb(255, 0, 0) solid;
-    margin-top: 10px;
+    outline: 1px rgb(255, 0, 0) solid;
+    padding-top: 30px;
 }
 
 .navdiv {
     position: relative;
-    margin-top: 50px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -186,6 +189,7 @@
 
 .gallerysection {
     outline: red solid 3px;
+    margin-bottom: 100px;
 }
 
 .gallery {
@@ -249,8 +253,35 @@
     outline: rgb(72, 237, 149) solid 3px;
  }
 
+.ourresults1 {
+    color: aliceblue;
+    text-align: center;
+}
 
- 
+.ourresults2 {
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    width: auto;
+    outline: blue solid 5px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.ourresults2 p{
+    width: 500px;
+} 
+
+
+
+.ourresultssection {
+    background-image: url(Images/resultbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 480px;
+    background-color: #08162b;
+}
 
 /*--Screen size adjuster--*/
 /*--This will display the page on different sizes.--*/
