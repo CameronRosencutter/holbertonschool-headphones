@@ -1,0 +1,474 @@
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-Black;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Black.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-SemiBold;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-Bold;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro_Lightit;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-LightIt.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-Light;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-ExtraLight;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-ExtraLight.otf);
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/*--Header--*/
+/*--This will display the logo and Navigation links--*/
+
+.headerandmainsection {
+    background-image: url(Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 480px;
+    background-color: #08162b;
+}
+
+.header {
+    justify-content: center;
+    width: auto;
+    height: 100px;
+    flex-direction: row;
+    outline: 1px rgb(255, 0, 0) solid;
+    padding-top: 30px;
+}
+
+.navdiv {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    outline: green solid 3px;
+}
+
+.headephoneheaderlogo {
+    margin-left: 50px;
+    outline: yellow solid 3px;
+    scale: 1.2;
+}
+
+.headephoneheaderlogo:hover {
+    transition: 0.5s;
+    color: #FF6565;
+    opacity: 0.9;
+}
+
+.menuicon {
+    display: none;
+}
+
+.navbarsection {
+    outline: purple solid 3px;
+    margin-right: 50px;
+}
+
+.navbarsection li{
+    display: inline;
+}
+
+.navbarsection a{
+    margin: 30px;
+    font-family: Source Sans Pro-Bold;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbarsection a:hover{
+    transition: 0.5s;
+    color: #FF6565;
+    opacity: 0.9;
+}
+
+/*--Main Section--*/
+/*--This will display Title, paragraph, and button--*/
+
+.sectionmain {
+    outline: lightsalmon solid 4px;
+    height: 550px;
+}
+
+.mainpart {
+    outline: rgb(35, 188, 35) solid 3px;
+    margin-top: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.mainpart h1 {
+    color: aliceblue;
+    font-family: Source Sans Pro-Bold;
+    font-size: 34px;
+}
+
+.maintitle {
+    outline: red solid 5px;
+    height: auto;
+}
+
+.maintitle p {
+    color: aliceblue;
+    font-family: Source Sans Pro-Bold;
+    font-size: 18px;
+    outline: rgb(40, 192, 172) solid 5px;
+    margin-bottom: 60px;
+}
+
+.mainpart button {
+    color: aliceblue;
+    font-family: Source Sans Pro;
+    text-transform: uppercase;
+    background-color: #FF6565;
+    cursor: pointer;
+    outline: red solid;
+    width: 170px;
+    padding: 6px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.mainpart button:hover{
+    color: #FF6565;
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+
+.headerparagraph {
+    display: flex;
+    width: auto;
+    position: relative;
+    outline: blue solid 5px;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.headerparagraph p {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    width: 650px;
+    letter-spacing: 1px;
+    width: 450px;
+    color: aliceblue;
+}
+
+/*--Gallery--*/
+/*--This will display the gallery--*/
+
+.gallerysection {
+    outline: red solid 3px;
+    margin-bottom: 100px;
+}
+
+.gallery {
+    outline: rgb(26, 209, 9) solid 9px;
+}
+
+.whatwedo {
+    width: auto;
+    position: relative;
+    outline: blue solid 5px;
+    text-align: center;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.whatwedo  h1{
+    font-family: Source Sans Pro-Bold;
+    font-size: 34px;
+    outline: rgb(155, 92, 92) solid 3px;
+}
+ .whatwedo2 {
+    display: flex;
+    width: auto;
+    position: relative;
+    outline: blue solid 5px;
+    text-align: center;
+    justify-content: space-around;
+ }
+
+ .whatwedo2 p {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    width: 650px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .loremipsumgallery {
+    margin-top: 90px;
+    display: flex;
+    outline: green solid 4px;
+    justify-content: space-around;
+ }
+
+ .loremipsum {
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    outline: red solid 3px;
+ }
+
+ .loremipsum h1{
+    font-family: Source Sans Pro-Bold;
+    outline: rgb(72, 237, 149) solid 3px;
+ }
+
+ .loremipsum p {
+    font-family: Source Sans Pro;
+    outline: rgb(72, 237, 149) solid 3px;
+ }
+
+.ourresults1 {
+    padding-top: 1px;
+    color: aliceblue;
+    text-align: center;
+    outline: lightcoral solid 4px;
+}
+
+.ourresults1 h1{
+    outline: red solid 5px;
+    margin-top: 50px;
+    font-family: Source Sans Pro-Bold;
+    font-size: 34px;
+    outline: rgb(155, 92, 92) solid 3px;
+}
+
+.ourresults2 {
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    width: auto;
+    outline: blue solid 5px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+
+
+.ourresults2 p{
+    width: 500px;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    width: 650px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+.resultgallery {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    outline: red solid 3px;
+}
+
+.resultpic {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    outline: red solid 3px;
+
+}
+
+
+
+.ourresultssection {
+    height: auto;
+    outline: rgb(95, 95, 237) solid 3px;
+    background-image: url(Images/resultbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 480px;
+    background-color: #08162b;
+}
+
+
+
+
+form {
+    font-family: Source Sans Pro;
+    text-align: center;
+    max-width:420px; margin:50px auto;
+}
+
+.feedback-input {
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border-bottom: 3px solid black;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+
+button {
+    color: aliceblue;
+    font-family: Source Sans Pro;
+    text-transform: uppercase;
+    background-color: #FF6565;
+    cursor: pointer;
+    outline: red solid;
+    width: 170px;
+    padding: 6px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+button:hover{
+    color: #FF6565;
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+
+footer {
+    font-family: Source Sans Pro;
+    text-align: center;
+}
+
+.footersection {
+    height: 200px;
+    background-color: #08162b;
+}
+
+.bottomdiv {
+    outline: red solid 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomlogo {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.bottomlinks {
+    margin-top: 50px;
+    margin-right: 100px;
+    outline: yellow solid 3px;
+}
+
+.bottomlinks img {
+    margin-right: 95px;
+}
+
+footer p {
+    color: aliceblue;
+}
+
+
+
+/*--Screen size adjuster--*/
+/*--This will display the page on different sizes.--*/
+
+@media only screen and (max-width: 675px) {
+    /* For mobile phones: */
+    .navdiv {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbarsection{
+        margin: 0;
+    }
+
+    .navbarsection li{
+        display: block;
+        font-size: 26px;
+        padding: 20px;
+    }
+
+    .headephoneheaderlogo {
+        margin-left: 0;
+    }
+
+    .mainpart {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .loremipsumgallery {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .loremipsum {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .resultpic {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .resultgallery {
+        flex-direction: column;
+    }
+
+    .bottomdiv {
+        flex-direction: column;
+    }
+
+    .bottomlinks img {
+        margin-right: 5px;
+    }
+
+    .bottomlogo {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    .bottomlinks {
+        margin: 5px;
+    }
+}
+
