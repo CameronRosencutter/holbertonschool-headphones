@@ -363,6 +363,12 @@ button {
     margin-bottom: 30px;
 }
 
+button:hover{
+    color: #FF6565;
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+
 
 
 
