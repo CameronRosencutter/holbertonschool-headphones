@@ -110,7 +110,7 @@
 
 .sectionmain {
     outline: lightsalmon solid 4px;
-    height: 450px;
+    height: 550px;
 }
 
 .mainpart {
@@ -199,6 +199,7 @@
     text-align: center;
     margin: auto;
     justify-content: space-around;
+    margin-top: 20px;
 }
 
 .whatwedo  h1{
@@ -222,6 +223,30 @@
     letter-spacing: 1px;
     margin-left: 10px;
     margin-right: 10px;
+ }
+
+ .loremipsumgallery {
+    margin-top: 90px;
+    display: flex;
+    outline: green solid 4px;
+    justify-content: space-around;
+ }
+
+ .loremipsum {
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    outline: red solid 3px;
+ }
+
+ .loremipsum h1{
+    font-family: Source Sans Pro-Bold;
+    outline: rgb(72, 237, 149) solid 3px;
+ }
+
+ .loremipsum p {
+    font-family: Source Sans Pro;
+    outline: rgb(72, 237, 149) solid 3px;
  }
 
 
@@ -252,6 +277,16 @@
     .mainpart {
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    .loremipsumgallery {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .loremipsum {
+        margin-top: 20px;
+        width: 100%;
     }
 }
 
