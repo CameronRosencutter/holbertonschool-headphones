@@ -291,9 +291,25 @@ html {
     margin-right: 10px;
 } 
 
+.resultgallery {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    outline: red solid 3px;
+}
+
+.resultpic {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    outline: red solid 3px;
+
+}
+
 
 
 .ourresultssection {
+    height: auto;
     outline: rgb(95, 95, 237) solid 3px;
     background-image: url(Images/resultbg.png);
     background-repeat: no-repeat;
@@ -340,6 +356,15 @@ html {
     .loremipsum {
         margin-top: 20px;
         width: 100%;
+    }
+
+    .resultpic {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .resultgallery {
+        flex-direction: column;
     }
 }
 
