@@ -34,7 +34,9 @@
 }
 
 
-
+body {
+    margin: 0;
+}
 
 
 /*--Header--*/
@@ -54,7 +56,6 @@
     width: auto;
     height: 100px;
     flex-direction: row;
-    outline: 10px rgb(255, 0, 0) solid;
     margin-top: 10px;
 }
 
@@ -64,12 +65,10 @@
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    outline: green solid 3px;
 }
 
 .headephoneheaderlogo {
     margin-left: 50px;
-    outline: yellow solid 3px;
     scale: 1.2;
 }
 
@@ -84,7 +83,6 @@
 }
 
 .navbarsection {
-    outline: purple solid 3px;
     margin-right: 50px;
 }
 
@@ -109,12 +107,10 @@
 /*--This will display Title, paragraph, and button--*/
 
 .sectionmain {
-    outline: lightsalmon solid 4px;
     height: 550px;
 }
 
 .mainpart {
-    outline: rgb(35, 188, 35) solid 3px;
     margin-top: 300px;
     margin-left: 10px;
     margin-right: 10px;
@@ -128,7 +124,6 @@
 }
 
 .maintitle {
-    outline: red solid 5px;
     height: auto;
 }
 
@@ -136,7 +131,6 @@
     color: aliceblue;
     font-family: Source Sans Pro-Bold;
     font-size: 18px;
-    outline: rgb(40, 192, 172) solid 5px;
     margin-bottom: 60px;
 }
 
@@ -146,7 +140,6 @@
     text-transform: uppercase;
     background-color: #FF6565;
     cursor: pointer;
-    outline: red solid;
     width: 170px;
     padding: 6px;
     font-size: 15px;
@@ -165,7 +158,6 @@
     display: flex;
     width: auto;
     position: relative;
-    outline: blue solid 5px;
     text-align: center;
     justify-content: space-around;
     margin-left: 10px;
@@ -184,18 +176,10 @@
 /*--Gallery--*/
 /*--This will display the gallery--*/
 
-.gallerysection {
-    outline: red solid 3px;
-}
-
-.gallery {
-    outline: rgb(26, 209, 9) solid 9px;
-}
 
 .whatwedo {
     width: auto;
     position: relative;
-    outline: blue solid 5px;
     text-align: center;
     margin: auto;
     justify-content: space-around;
@@ -205,13 +189,11 @@
 .whatwedo  h1{
     font-family: Source Sans Pro-Bold;
     font-size: 34px;
-    outline: rgb(155, 92, 92) solid 3px;
 }
  .whatwedo2 {
     display: flex;
     width: auto;
     position: relative;
-    outline: blue solid 5px;
     text-align: center;
     justify-content: space-around;
  }
@@ -228,7 +210,6 @@
  .loremipsumgallery {
     margin-top: 90px;
     display: flex;
-    outline: green solid 4px;
     justify-content: space-around;
  }
 
@@ -236,21 +217,18 @@
     width: 200px;
     text-align: center;
     justify-content: center;
-    outline: red solid 3px;
  }
 
  .loremipsum h1{
     font-family: Source Sans Pro-Bold;
-    outline: rgb(72, 237, 149) solid 3px;
  }
 
  .loremipsum p {
     font-family: Source Sans Pro;
-    outline: rgb(72, 237, 149) solid 3px;
  }
 
 
- 
+
 
 /*--Screen size adjuster--*/
 /*--This will display the page on different sizes.--*/

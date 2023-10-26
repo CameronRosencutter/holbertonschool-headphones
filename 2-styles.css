@@ -41,6 +41,10 @@ html {
     
 }
 
+body {
+    margin: 0;
+}
+
 
 /*--Header--*/
 /*--This will display the logo and Navigation links--*/
@@ -59,7 +63,6 @@ html {
     width: auto;
     height: 100px;
     flex-direction: row;
-    outline: 1px rgb(255, 0, 0) solid;
     padding-top: 30px;
 }
 
@@ -68,12 +71,10 @@ html {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    outline: green solid 3px;
 }
 
 .headephoneheaderlogo {
     margin-left: 50px;
-    outline: yellow solid 3px;
     scale: 1.2;
 }
 
@@ -88,7 +89,6 @@ html {
 }
 
 .navbarsection {
-    outline: purple solid 3px;
     margin-right: 50px;
 }
 
@@ -113,12 +113,10 @@ html {
 /*--This will display Title, paragraph, and button--*/
 
 .sectionmain {
-    outline: lightsalmon solid 4px;
     height: 550px;
 }
 
 .mainpart {
-    outline: rgb(35, 188, 35) solid 3px;
     margin-top: 300px;
     margin-left: 10px;
     margin-right: 10px;
@@ -132,7 +130,6 @@ html {
 }
 
 .maintitle {
-    outline: red solid 5px;
     height: auto;
 }
 
@@ -140,7 +137,6 @@ html {
     color: aliceblue;
     font-family: Source Sans Pro-Bold;
     font-size: 18px;
-    outline: rgb(40, 192, 172) solid 5px;
     margin-bottom: 60px;
 }
 
@@ -150,7 +146,6 @@ html {
     text-transform: uppercase;
     background-color: #FF6565;
     cursor: pointer;
-    outline: red solid;
     width: 170px;
     padding: 6px;
     font-size: 15px;
@@ -169,7 +164,6 @@ html {
     display: flex;
     width: auto;
     position: relative;
-    outline: blue solid 5px;
     text-align: center;
     justify-content: space-around;
     margin-left: 10px;
@@ -189,18 +183,14 @@ html {
 /*--This will display the gallery--*/
 
 .gallerysection {
-    outline: red solid 3px;
     margin-bottom: 100px;
 }
 
-.gallery {
-    outline: rgb(26, 209, 9) solid 9px;
-}
+
 
 .whatwedo {
     width: auto;
     position: relative;
-    outline: blue solid 5px;
     text-align: center;
     margin: auto;
     justify-content: space-around;
@@ -210,13 +200,11 @@ html {
 .whatwedo  h1{
     font-family: Source Sans Pro-Bold;
     font-size: 34px;
-    outline: rgb(155, 92, 92) solid 3px;
 }
  .whatwedo2 {
     display: flex;
     width: auto;
     position: relative;
-    outline: blue solid 5px;
     text-align: center;
     justify-content: space-around;
  }
@@ -233,7 +221,6 @@ html {
  .loremipsumgallery {
     margin-top: 90px;
     display: flex;
-    outline: green solid 4px;
     justify-content: space-around;
  }
 
@@ -241,32 +228,27 @@ html {
     width: 200px;
     text-align: center;
     justify-content: center;
-    outline: red solid 3px;
  }
 
  .loremipsum h1{
     font-family: Source Sans Pro-Bold;
-    outline: rgb(72, 237, 149) solid 3px;
  }
 
  .loremipsum p {
     font-family: Source Sans Pro;
-    outline: rgb(72, 237, 149) solid 3px;
  }
 
 .ourresults1 {
     padding-top: 1px;
     color: aliceblue;
     text-align: center;
-    outline: lightcoral solid 4px;
 }
 
 .ourresults1 h1{
-    outline: red solid 5px;
     margin-top: 50px;
     font-family: Source Sans Pro-Bold;
     font-size: 34px;
-    outline: rgb(155, 92, 92) solid 3px;
+    : rgb(155, 92, 92) solid 3px;
 }
 
 .ourresults2 {
@@ -274,7 +256,6 @@ html {
     text-align: center;
     display: flex;
     width: auto;
-    outline: blue solid 5px;
     text-align: center;
     justify-content: space-around;
 }
@@ -296,22 +277,18 @@ html {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
-    outline: red solid 3px;
 }
 
 .resultpic {
     display: flex;
     width: 200px;
     justify-content: center;
-    outline: red solid 3px;
-
 }
 
 
 
 .ourresultssection {
     height: auto;
-    outline: rgb(95, 95, 237) solid 3px;
     background-image: url(Images/resultbg.png);
     background-repeat: no-repeat;
     background-size: cover;

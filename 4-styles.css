@@ -33,6 +33,9 @@
     src: url(./Fonts/source-sans-pro/SourceSansPro-ExtraLight.otf);
 }
 
+body {
+    margin: 0;
+}
 
 html {
     margin: 0;

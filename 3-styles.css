@@ -40,6 +40,10 @@ html {
     
 }
 
+body {
+    margin: 0;
+}
+
 
 /*--Header--*/
 /*--This will display the logo and Navigation links--*/
